@@ -5,8 +5,8 @@
 
 
 # Ignorar directorios específicos (ajustar según sea necesario)
-/dist
-/build
+**//dist
+**//build
 
 
 # Logs
@@ -42,11 +42,11 @@ lerna-debug.log*
 !.vscode/extensions.json
 
 # dotenv environment variable files
-.env
-.env.development.local
-.env.test.local
-.env.production.local
-.env.local
+**/.env
+**/.env.development.local
+**/.env.test.local
+**/.env.production.local
+**/.env.local
 
 # temp directory
 .temp
