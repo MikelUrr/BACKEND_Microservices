@@ -5,8 +5,8 @@
 
 
 # Ignorar directorios específicos (ajustar según sea necesario)
-**//dist
-**//build
+**/dist
+**/build
 
 
 # Logs
